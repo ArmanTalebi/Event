@@ -4,6 +4,10 @@ body {
     background-color: #ffffff;
 }
 
+.navbar-brand {
+    cursor: pointer;
+}
+
 @media screen and (max-width:991px) {
     .offcanvas-body form {
         margin-top: 10px;
@@ -54,7 +58,7 @@ body {
     }
 
     .offcanvas-body form input {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .nav-item-hide {
