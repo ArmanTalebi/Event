@@ -9,7 +9,15 @@ body {
         margin-top: 10px;
     }
 
+    .offcanvas-body {
+        font-size: 14px;
+    }
+
     .nav-item-hide1 {
+        display: none;
+    }
+
+    .navbar-brand1 {
         display: none;
     }
 }
