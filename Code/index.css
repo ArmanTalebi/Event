@@ -1,5 +1,38 @@
 body {
     font-family: "Ubuntu", sans-serif;
     background-image: url("https://uploads-ssl.webflow.com/62e3ee10882dc50bcae8d07a/631a5d4631d4c55a475f3e34_noise-50.png");
-    background-color: #808083;
+    background-color: #ffffff;
+}
+
+@media screen and (max-width:991px) {
+    .offcanvas-body form {
+        margin-top: 10px;
+    }
+}
+
+
+@media screen and (min-width:991px) {
+    .container-fluid {
+        padding: 0 4rem !important;
+    }
+
+    svg {
+        display: none;
+    }
+
+    .navbar-brand-img {
+        display: none;
+    }
+
+    .offcanvas-body {
+        font-size: 15px;
+    }
+
+    .offcanvas-body .navbar-nav {
+        align-items: center;
+    }
+
+    /* .offcanvas-body form {
+        display: none !important;
+    } */
 }

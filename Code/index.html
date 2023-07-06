@@ -17,7 +17,7 @@
             <div class="container-fluid px-4">
                 <a class="navbar-brand" href="#">
                     <svg width="35px" height="35px" viewBox="-5.67 -5.67 32.34 32.34" version="1.1"
-                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ffffff"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#333"
                         stroke="#ffffff">
                         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                         <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -38,7 +38,9 @@
                         </g>
                     </svg>
                 </a>
-                <a class="navbar-brand me-0"><img src="/Media/Logo.png" style="width: 45px; height: 45px;"></a>
+                <a class="navbar-brand navbar-brand-img me-0 ">
+                    <img src="/Media/Logo.png" style="width: 50px; height: 50px;">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -50,7 +52,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body position-relative">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+                        <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
                             <li class="nav-item bottom-[20px]">
                                 <a class="nav-link" aria-current="page" href="#">
                                     <svg class="me-1" width="19px" height="22px" viewBox="0 0 24.00 24.00" fill="none"
@@ -202,9 +204,12 @@
                                     Enter To Event</a>
                             </li>
                         </ul>
-                        <form class="d-flex mt-3" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-secondary" type="submit">Search</button>
+                        <a class="navbar-brand me-0 ">
+                            <img src="/Media/Logo.png" style="width: 50px; height: 50px;">
+                        </a>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2 bg-transparent" type="search" placeholder="Search"
+                                aria-label="Search">
                         </form>
                     </div>
                 </div>
