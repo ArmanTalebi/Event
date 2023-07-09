@@ -7,20 +7,37 @@ body {
 .navbar-brand {
   cursor: pointer;
 }
+
 /* .logo {
   width: 40px;
   height: 40px;
 } */
 
 .dark-image {
-  filter: brightness(70%);
+  filter: brightness(60%);
 }
+
 /* .shadow1 {
   box-shadow: 0 1px 40px gray;
 } */
 .carousel-item {
   transition: transform 1s ease, opacity 0.3s ease-out;
 }
+
+@media screen and (max-width: 574px) {
+  .carousel-caption h4 {
+    font-size: 12px;
+  }
+
+  .carousel-caption p {
+    font-size: 10px;
+  }
+
+  .carousel-caption .text-secondary {
+    font-size: 8px;
+  }
+}
+
 
 @media screen and (max-width: 991px) {
   .offcanvas-body form {
@@ -38,15 +55,29 @@ body {
   .navbar-brand1 {
     display: none;
   }
+
+  .carousel-caption h4 {
+    font-size: 14px;
+  }
+
+  .carousel-caption p {
+    font-size: 12px;
+  }
+
+  .carousel-caption .text-secondary {
+    font-size: 10px;
+  }
 }
 
 @media screen and (min-width: 991px) {
   .container-fluid {
     padding: 0 4rem !important;
   }
+
   svg {
     display: none;
   }
+
   .navbar-brand-img {
     display: none;
   }
