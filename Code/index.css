@@ -1,71 +1,75 @@
 body {
-    font-family: "Ubuntu", sans-serif;
-    background-image: url("https://uploads-ssl.webflow.com/62e3ee10882dc50bcae8d07a/631a5d4631d4c55a475f3e34_noise-50.png");
-    background-color: #ffffff;
+  font-family: "Ubuntu", sans-serif;
+  background-image: url("https://uploads-ssl.webflow.com/62e3ee10882dc50bcae8d07a/631a5d4631d4c55a475f3e34_noise-50.png");
+  background-color: #ffffff;
 }
 
 .navbar-brand {
-    cursor: pointer;
+  cursor: pointer;
+}
+/* .logo {
+  width: 40px;
+  height: 40px;
+} */
+
+.dark-image {
+  filter: brightness(70%);
+}
+/* .shadow1 {
+  box-shadow: 0 1px 40px gray;
+} */
+.carousel-item {
+  transition: transform 1s ease, opacity 0.3s ease-out;
 }
 
-@media screen and (max-width:991px) {
-    .offcanvas-body form {
-        margin-top: 10px;
-    }
+@media screen and (max-width: 991px) {
+  .offcanvas-body form {
+    margin-top: 10px;
+  }
 
-    .offcanvas-body {
-        font-size: 14px;
-    }
+  .offcanvas-body {
+    font-size: 14px;
+  }
 
-    .nav-item-hide1 {
-        display: none;
-    }
+  .nav-item-hide1 {
+    display: none;
+  }
 
-    .navbar-brand1 {
-        display: none;
-    }
+  .navbar-brand1 {
+    display: none;
+  }
 }
 
+@media screen and (min-width: 991px) {
+  .container-fluid {
+    padding: 0 4rem !important;
+  }
+  svg {
+    display: none;
+  }
+  .grid-
 
-@media screen and (min-width:991px) {
-    .container-fluid {
-        padding: 0 4rem !important;
-    }
+  .navbar-brand-img {
+    display: none;
+  }
 
-    .search-icon {
-        background-image: url(/Public/SVG/search.svg);
-        background-repeat: no-repeat;
-        background-position: right center;
-        background-size: 16px 16px;
-        padding-right: 20px;
-        /* Adjust padding to make room for the icon */
-    }
+  .offcanvas-body {
+    font-size: 15px;
+  }
 
-    svg {
-        display: none;
-    }
+  .offcanvas-body .navbar-nav {
+    align-items: center;
+  }
 
-    .navbar-brand-img {
-        display: none;
-    }
+  .offcanvas-body form input {
+    font-size: 15px;
+  }
 
-    .offcanvas-body {
-        font-size: 16px;
-    }
+  .nav-item-hide {
+    display: none;
+  }
 
-    .offcanvas-body .navbar-nav {
-        align-items: center;
-    }
-
-    .offcanvas-body form input {
-        font-size: 15px;
-    }
-
-    .nav-item-hide {
-        display: none;
-    }
-
-    /* .offcanvas-body form {
+  /* .offcanvas-body form {
         border-right: 2px solid #333;
     } */
 }
