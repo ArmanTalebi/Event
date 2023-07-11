@@ -74,6 +74,10 @@ body {
 }
 
 @media screen and (min-width: 991px) {
+  svg {
+    cursor: pointer;
+  }
+
   .nav-item-hide1 svg {
     display: none;
   }
@@ -109,6 +113,10 @@ body {
   .card-body a {
     font-size: 12px;
     font-weight: 400;
+  }
+
+  .card-time {
+    font-size: 13px;
   }
 
   /* .offcanvas-body form {
