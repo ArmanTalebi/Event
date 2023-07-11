@@ -74,7 +74,11 @@ body {
 }
 
 @media screen and (min-width: 991px) {
-  svg {
+  .nav-item-hide1 svg {
+    display: none;
+  }
+
+  .navbar-brand svg {
     display: none;
   }
 
@@ -100,6 +104,11 @@ body {
 
   .select-items {
     display: none;
+  }
+
+  .card-body a {
+    font-size: 12px;
+    font-weight: 400;
   }
 
   /* .offcanvas-body form {
