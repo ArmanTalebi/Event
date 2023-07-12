@@ -8,6 +8,16 @@ body {
   cursor: pointer;
 }
 
+.grid1-2 {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+/* .grid1-2 img {
+  min-width: 250px;
+  min-height: 250px;
+} */
+
 /* .logo {
   width: 40px;
   height: 40px;
@@ -36,12 +46,40 @@ body {
     width: 35px;
     height: 35px;
   }
+
+  .grid1-2 {
+    display: grid;
+    grid-template-columns: 45% 55%;
+  }
+
+  .grid1-2 img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .grid1-2 .card-text {
+    font-size: 14px;
+  }
 }
 
 @media screen and (min-width:400px) and (max-width:768px) {
   .orgnizer-items .d-flex img {
     width: 50px;
     height: 50px;
+  }
+
+  .grid1-2 {
+    display: grid;
+    grid-template-columns: 55% 45%;
+  }
+
+  .grid1-2 img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .grid1-2 .card-text {
+    font-size: 16px;
   }
 }
 
@@ -58,6 +96,8 @@ body {
     font-size: 8px;
   }
 }
+
+@media screen and (max-width:768px) {}
 
 
 @media screen and (max-width: 991px) {
