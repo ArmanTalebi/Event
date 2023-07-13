@@ -49,17 +49,19 @@ body {
 
   .grid1-2 {
     display: grid;
-    grid-template-columns: 45% 55%;
+    grid-template-columns: 60% 40%;
   }
 
   .grid1-2 img {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
   }
 
   .grid1-2 .card-text {
-    font-size: 14px;
+    font-size: 11px;
+    margin-top: 1.2rem;
   }
+
 }
 
 @media screen and (min-width:400px) and (max-width:768px) {
@@ -70,16 +72,17 @@ body {
 
   .grid1-2 {
     display: grid;
-    grid-template-columns: 55% 45%;
+    grid-template-columns: 60% 40%;
   }
 
   .grid1-2 img {
-    width: 180px;
-    height: 180px;
+    width: 130px;
+    height: 130px;
   }
 
   .grid1-2 .card-text {
-    font-size: 16px;
+    font-size: 18px;
+    margin-top: 1.5rem;
   }
 }
 
@@ -97,7 +100,7 @@ body {
   }
 }
 
-@media screen and (max-width:768px) {}
+/* @media screen and (min-width:768px) {} */
 
 
 @media screen and (max-width: 991px) {
@@ -134,7 +137,7 @@ body {
   }
 }
 
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 992px) {
   svg {
     cursor: pointer;
   }
@@ -178,6 +181,21 @@ body {
 
   .card-time {
     font-size: 13px;
+  }
+
+  .grid1-2 {
+    display: grid;
+    grid-template-columns: 55% 45%;
+  }
+
+  .grid1-2 img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .grid1-2 .card-text {
+    font-size: 25px;
+    margin-top: 5rem;
   }
 
 
