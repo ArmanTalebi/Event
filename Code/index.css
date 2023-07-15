@@ -13,6 +13,10 @@ body {
   grid-template-columns: 40% 60%;
 }
 
+#carouselExampleFade img {
+  cursor: pointer;
+}
+
 /* .grid1-2 img {
   min-width: 250px;
   min-height: 250px;
@@ -41,6 +45,11 @@ body {
   filter: brightness(90%);
 }
 
+.footer {
+  background-color: #343a40;
+  background-image: url("https://uploads-ssl.webflow.com/62e3ee10882dc50bcae8d07a/631a5d4631d4c55a475f3e34_noise-50.png");
+}
+
 @media screen and (max-width:400px) {
   .orgnizer-items .d-flex img {
     width: 35px;
@@ -59,7 +68,7 @@ body {
 
   .grid1-2 .card-text {
     font-size: 11px;
-    margin-top: 1.2rem;
+    margin-top: 1.5rem;
   }
 
 }
@@ -82,7 +91,7 @@ body {
 
   .grid1-2 .card-text {
     font-size: 18px;
-    margin-top: 1.5rem;
+    margin-top: 1.8rem;
   }
 }
 
@@ -196,6 +205,27 @@ body {
   .grid1-2 .card-text {
     font-size: 25px;
     margin-top: 5rem;
+  }
+
+  .categories-head p {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+
+  .grid-2-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: .5rem;
+    font-size: 13px;
+  }
+
+  .col1 p,
+  .col2 p,
+  .col3 p,
+  .col4 p {
+    margin-bottom: .5rem;
+    font-size: 12px;
   }
 
 
