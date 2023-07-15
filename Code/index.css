@@ -100,6 +100,13 @@ body {
     margin-top: 1.5rem;
   }
 
+  .link1 {
+    transition: 0.5s color;
+  }
+
+  .link1:hover {
+    color: #a5a9ad;
+  }
 }
 
 @media screen and (min-width:400px) and (max-width:768px) {
@@ -141,7 +148,7 @@ body {
 /* @media screen and (min-width:768px) {} */
 
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 992px) {
   .offcanvas-body form {
     margin-top: 10px;
   }
@@ -172,6 +179,14 @@ body {
 
   .link-items {
     display: none;
+  }
+
+  .wider {
+    display: none;
+  }
+
+  .footer-link {
+    font-size: 14px;
   }
 }
 
@@ -259,6 +274,10 @@ body {
 
   .grid-2-4 .first {
     margin-top: 2.65rem;
+  }
+
+  .wide {
+    display: none;
   }
 
 
