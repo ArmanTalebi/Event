@@ -46,8 +46,12 @@ body {
 }
 
 .footer {
-  background-color: #343a40;
+  background-color: #232425;
   background-image: url("https://uploads-ssl.webflow.com/62e3ee10882dc50bcae8d07a/631a5d4631d4c55a475f3e34_noise-50.png");
+}
+
+.gray {
+  color: rgb(240, 240, 240);
 }
 
 @media screen and (max-width:400px) {
@@ -226,6 +230,10 @@ body {
   .col4 p {
     margin-bottom: .5rem;
     font-size: 12px;
+  }
+
+  .grid-2-4 .first {
+    margin-top: 2.65rem;
   }
 
 
