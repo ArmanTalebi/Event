@@ -8,6 +8,7 @@ body {
   cursor: pointer;
 }
 
+
 .grid-1-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -228,7 +229,7 @@ body {
 @media screen and (min-width: 768px) and (max-width:992px) {
   .card-image img {
     position: relative;
-    left: 60px;
+    left: 65px;
   }
 }
 
